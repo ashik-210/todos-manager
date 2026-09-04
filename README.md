@@ -1,16 +1,111 @@
-# React + Vite
+# Todos Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive todo manager built with React, Context API, and Tailwind CSS — add, edit, delete, and toggle-complete your tasks, with automatic persistence via localStorage.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [todos-manager-one.vercel.app](https://todos-manager-one.vercel.app/)
+📂 **Repository:** [github.com/ashik-210/todos-manager](https://github.com/ashik-210/todos-manager)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<!-- Add your 4 screenshots below. Replace the paths with your actual image files (e.g. place them in a /screenshots folder in the repo root). -->
 
-## Expanding the ESLint configuration
+| | |
+|---|---|
+| ![Home screen](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-28-43" src="https://github.com/user-attachments/assets/bc6b50ae-a4e4-4926-8c35-aabf30b3e3d8" />
+) | ![Adding a todo](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-06-30" src="https://github.com/user-attachments/assets/255e9bbd-4c96-44e7-ab4f-87396996e553" />
+) |
+| ![Editing a todo](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-06-55" src="https://github.com/user-attachments/assets/bb3b0eb5-6ff8-486f-aba4-6fa9e8ac2641" />
+) | ![Completed todo](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-06-02" src="https://github.com/user-attachments/assets/70977cbb-4e05-482c-aa19-99ad506e176e" />
+) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- ✅ **Add tasks** — quickly add new todos via a simple input form
+- ✏️ **Edit tasks** — inline editing with a toggle between edit and save mode
+- 🗑️ **Delete tasks** — remove todos you no longer need
+- ☑️ **Mark as complete** — check off finished tasks with strikethrough styling
+- 🔒 **Locked editing** — completed tasks can't be edited until marked incomplete again
+- 💾 **Persistent storage** — todos are saved to `localStorage`, so your list survives page refreshes
+- 📱 **Fully responsive** — clean UI that adapts from mobile to desktop
+
+---
+
+## Tech Stack
+
+- **React** — component-based UI
+- **Context API** — global state management (no external state library)
+- **Tailwind CSS** — utility-first styling
+- **Lucide React** — icon set
+- **Vite** — build tool / dev server
+- **Vercel** — deployment
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm / yarn / pnpm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ashik-210/todos-manager.git
+
+# Navigate into the project
+cd todos-manager
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be running locally at `http://localhost:5173` (or whichever port Vite assigns).
+
+### Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```
+todos-manager/
+├── src/
+│   ├── components/
+│   │   ├── Top.jsx
+│   │   ├── TodoForm.jsx
+│   │   └── TodoItem.jsx
+│   ├── context/
+│   │   └── ContextProvider.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── tailwind.config.js
+└── package.json
+```
+
+---
+
+## Author
+
+**Ashik**
+B.Tech CSE, RKGITM Ghaziabad
+
+- GitHub: [@ashik-210](https://github.com/ashik-210)
+
+---
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
