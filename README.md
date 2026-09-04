@@ -9,16 +9,16 @@ A responsive todo manager built with React, Context API, and Tailwind CSS — ad
 
 ## Screenshots
 
-<!-- Add your 4 screenshots below. Replace the paths with your actual image files (e.g. place them in a /screenshots folder in the repo root). -->
-
-| | |
-|---|---|
-| ![Home screen](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-28-43" src="https://github.com/user-attachments/assets/bc6b50ae-a4e4-4926-8c35-aabf30b3e3d8" />
-) | ![Adding a todo](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-06-30" src="https://github.com/user-attachments/assets/255e9bbd-4c96-44e7-ab4f-87396996e553" />
-) |
-| ![Editing a todo](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-06-55" src="https://github.com/user-attachments/assets/bb3b0eb5-6ff8-486f-aba4-6fa9e8ac2641" />
-) | ![Completed todo](<img width="1366" height="768" alt="Screenshot from 2026-09-04 23-06-02" src="https://github.com/user-attachments/assets/70977cbb-4e05-482c-aa19-99ad506e176e" />
-) |
+<table>
+  <tr>
+    <td><img width="1366" height="768" alt="Home screen" src="https://github.com/user-attachments/assets/bc6b50ae-a4e4-4926-8c35-aabf30b3e3d8" /></td>
+    <td><img width="1366" height="768" alt="Adding a todo" src="https://github.com/user-attachments/assets/255e9bbd-4c96-44e7-ab4f-87396996e553" /></td>
+  </tr>
+  <tr>
+    <td><img width="1366" height="768" alt="Editing a todo" src="https://github.com/user-attachments/assets/bb3b0eb5-6ff8-486f-aba4-6fa9e8ac2641" /></td>
+    <td><img width="1366" height="768" alt="Completed todo" src="https://github.com/user-attachments/assets/70977cbb-4e05-482c-aa19-99ad506e176e" /></td>
+  </tr>
+</table>
 
 ---
 
